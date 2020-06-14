@@ -51,7 +51,6 @@ public class HeapSort {
     // Driver code
     public static void main(String args[]) {
         int[] array = { 6, 5, 12, 10, 9, 1 };
-        int size = array.length;
 
         System.out.println("Unsorted array:");
         System.out.println(Arrays.toString(array));
