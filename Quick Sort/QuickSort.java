@@ -6,7 +6,7 @@ class QuickSort {
     public static int partition(int array[], int low, int high) {
 
         // Select the pivot element
-        //  In this case we select the last element
+        // In this case we select the last element
         int pivot = array[high];
         int i = (low - 1);
 
@@ -23,7 +23,7 @@ class QuickSort {
         int temp = array[i + 1];
         array[i + 1] = array[high];
         array[high] = temp;
-        return (i + 1);    // The pivot is returned.
+        return (i + 1); // The pivot is returned.
     }
 
     public static void quickSort(int array[], int low, int high) {
@@ -48,7 +48,8 @@ class QuickSort {
         System.out.println("Unsorted array:");
         System.out.println(Arrays.toString(array));
 
-        //We call the quick sort method and pass the array, first index and the last index.
+        // We call the quick sort method and pass the array, first index and the last
+        // index.
         QuickSort.quickSort(array, 0, size - 1);
 
         System.out.println("Sorted array:");

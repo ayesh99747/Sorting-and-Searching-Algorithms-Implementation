@@ -29,10 +29,10 @@ def quickSort(array, low, high):
         quickSort(array, pivot + 1, high)
 
 
-data = [8, 7, 2, 1, 0, 9, 6]
-size = len(data)
+array = [8, 7, 2, 1, 0, 9, 6]
+size = len(array)
 print('Unsorted Array')
-print(data)
-quickSort(data, 0, size - 1)
+print(array)
+quickSort(array, 0, size - 1)
 print('Sorted Array')
-print(data)
+print(array)
