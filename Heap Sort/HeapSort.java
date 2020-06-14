@@ -55,7 +55,7 @@ public class HeapSort {
         System.out.println("Unsorted array:");
         System.out.println(Arrays.toString(array));
 
-        // We call the quick sort method and pass the array, first index and the last
+        // We call the heap sort method and pass the array, first index and the last
         // index.
         HeapSort.heapSort(array);
 

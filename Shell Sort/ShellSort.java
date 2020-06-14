@@ -23,7 +23,7 @@ public class ShellSort {
         System.out.println("Unsorted array:");
         System.out.println(Arrays.toString(array));
 
-        // We call the quick sort method and pass the array, first index and the last
+        // We call the shell sort method and pass the array, first index and the last
         // index.
         ShellSort.shellSort(array, size);
 
