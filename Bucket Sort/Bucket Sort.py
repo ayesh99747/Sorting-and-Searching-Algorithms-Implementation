@@ -24,8 +24,7 @@ def bucketSort(array):
 
 
 # Test code
-array = [8, 7, 2, 1, 0, 9, 6]
-size = len(array)
+array = [0.42, 0.32, 0.33, 0.52, 0.37, 0.47, 0.51]
 print('Unsorted Array')
 print(array)
 bucketSort(array)

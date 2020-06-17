@@ -1,5 +1,4 @@
 def shellSort(array, n):
-
     # Rearrange elements at each n/2, n/4, n/8, ... intervals
     interval = n // 2
     while interval > 0:
@@ -19,6 +18,6 @@ array = [8, 7, 2, 1, 0, 9, 6]
 size = len(array)
 print('Unsorted Array')
 print(array)
-shellSort(array, 0, size - 1)
+shellSort(array, size)
 print('Sorted Array')
 print(array)
