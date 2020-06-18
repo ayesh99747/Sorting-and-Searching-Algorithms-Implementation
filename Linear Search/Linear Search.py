@@ -7,9 +7,9 @@ def linearSearch(array, size, numberToBeFound):
 
 
 array = [2, 4, 0, 1, 9]
-numberToBeFound = 1
+numberToBeFound = 10
 size = len(array)
-result = linearSearch(array, numberToBeFound, size)
+result = linearSearch(array, size-1, numberToBeFound)
 if(result == -1):
     print("Element not found")
 else:

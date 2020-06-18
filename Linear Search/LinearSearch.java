@@ -11,7 +11,7 @@ public class LinearSearch {
 
     public static void main(String args[]) {
         int array[] = { 2, 4, 0, 1, 9 };
-        int numberToBeFound = 1;
+        int numberToBeFound = 10;
 
         int result = linearSearch(array, numberToBeFound);
 
