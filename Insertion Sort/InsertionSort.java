@@ -27,8 +27,7 @@ public class InsertionSort {
         System.out.println(Arrays.toString(array));
 
         // We call the insertion sort method and pass the array, first index and the
-        // last
-        // index.
+        // last index.
         InsertionSort.insertionSort(array);
 
         System.out.println("Sorted array:");

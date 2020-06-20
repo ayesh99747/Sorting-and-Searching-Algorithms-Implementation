@@ -13,7 +13,6 @@ def insertionSort(array):
 
 
 array = [8, 7, 2, 1, 0, 9, 6]
-size = len(array)
 print('Unsorted Array')
 print(array)
 insertionSort(array)
